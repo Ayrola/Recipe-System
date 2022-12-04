@@ -1,7 +1,29 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Header</h2>
-        </div>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Recipe Book</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shopping List</a>
+          </li>
+        </ul>
+        <ul class="me mb-2">
+            <li class="nav-item dropdown me" style="list-style-type: none;">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                  Manage
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                  <a class="dropdown-item" href="#">Save Data</a>
+                  <a class="dropdown-item" href="#">Fetch Data</a>
+                </div>
+              </li>
+        </ul>
+      </div>
     </div>
-</div>
+  </nav>
