@@ -1,14 +1,4 @@
 <header></header>
 <div class="container">
-  <app-cockpit 
-  (serverCreated)="onServerAdded($event)"
-  (blueprintCreated)="onBlueprintAdded($event)"></app-cockpit>
-  <div class="row">
-    <div class="col-md-12">
-      <!-- <app-recipes></app-recipes>
-      <app-shopping-list></app-shopping-list> -->
-      <app-server-element *ngFor="let serverElement of serverElements"
-      [element]="serverElement"></app-server-element>
-    </div>
-  </div>
+  <app-game></app-game>
 </div>

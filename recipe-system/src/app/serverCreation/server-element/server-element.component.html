@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-body">
-        <h5 class="card-title">{{element.name}}</h5>
+        <div class="card-title" #headerInfo>{{element.name}}</div>
         <p *ngIf="element.type === 'server'" style="color: red">
             {{element.content}}
         <p>
